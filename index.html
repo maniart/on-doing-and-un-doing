@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>on doing and undoing</title>
+  <script
+    type="text/javascript"
+    src="diffy.min.js">
+  </script>
+</head>
+<body style="background-color: black">
+
+<video
+  style="display:none;"
+  id="video"
+  src="boat-cropped.mp4"
+  width="400"
+  loop
+  height="300">
+</video>
+
+<canvas
+  style="display: none"
+  id="source"
+  width="800"
+  height="600">
+</canvas>
+
+<canvas
+  style="
+    position: absolute;
+    border-radius: 30px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid black;
+    "
+  id="output"
+  width="800"
+  height="600">
+</canvas>
+
+<script
+  type="text/javascript"
+  src="main.js">
+</script>
+
+</body>
+</html>
