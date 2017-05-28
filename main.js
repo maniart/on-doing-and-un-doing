@@ -33,10 +33,6 @@ function snapshot() {
   sourceCtx.drawImage(video, 0, 0, source.width, source.height);
 }
 
-function foo() {
-  outputCtx.drawImage(source, 0, 0, output.width, output.height);
-}
-
 video.addEventListener('canplay', function() {
   video.play();
 }, false);
